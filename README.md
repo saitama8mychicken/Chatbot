@@ -61,6 +61,15 @@ raw movie scripts:
       ➢ character metadata included:
       o - gender (for 3,774 characters)
       o - position on movie credits (3,321 characters)
+      
+      
+# Data Preprocessing
 
+    about
+    
 
+## Model Architecture
 
+> The architecture of the model has been defined below
+
+![alt-text](image.png)
