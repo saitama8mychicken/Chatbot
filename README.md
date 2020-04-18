@@ -93,6 +93,12 @@ raw movie scripts:
 
 # ![alt-text](model.summary.png)
 
-> <h3>➢ Run the model and improve the accuracy<h3>
+> <h3>➢ Run the model and improve the accuracy</h3>
 
 # ![alt-text](epoch.png)
+
+> <h3>➢ A design of how the tkinter chatbot looks is below</h3>
+
+# ![alt-text](chatbot.png)
+
+# ![alt-text](submitted_by.png)
