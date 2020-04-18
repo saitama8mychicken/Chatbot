@@ -85,14 +85,14 @@ raw movie scripts:
 
 ## &#x1F539; Model Architecture
 
-> <h2>➢</h2> The architecture of the model has been defined below
+> <h3>➢ The architecture of the model has been defined below</h3>
 
 # ![alt-text](image.png)
 
-> <h2>➢</h2> Below is the model summary
+> <h3>➢ Below is the model summary</h3>
 
 # ![alt-text](model.summary.png)
 
-> <h2>➢</h2> Run the model and improve the accuracy
+> <h3>➢ Run the model and improve the accuracy<h3>
 
 # ![alt-text](epoch.png)
