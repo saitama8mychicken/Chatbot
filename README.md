@@ -102,3 +102,10 @@ raw movie scripts:
 # ![alt-text](chatbot.png)
 
 # ![alt-text](submitted_by.png)
+<br>
+<br>
+<br>
+# ![alt-text](thankyou.png)
+<hr>
+<hr>
+
