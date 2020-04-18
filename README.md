@@ -1,3 +1,4 @@
+
 # &#x1F49C; Chatbot
 
 
@@ -7,7 +8,6 @@
     complex queries from the user and intelligently respond.
     
 > “In the next few decades, as we continue to create our digital footprints, millennial's will have generated enough data to make “Digital Immortality” feasible” - *MIT Technology Review, October 2018.*
-
 
 
 What if there is ‘life after death’ or you can talk to your loved ones, even after they left you? In the movie Transcendence
@@ -31,17 +31,17 @@ i.e. surrounding words and sentences. Your thoughts have persistence, which defi
 
 As traditional neural networks cannot do this, Recurrent Neural Networks (RNN) are used. They are networks with loops, to allow information to persist. RNNs can be thought of as multiple copies of the same network, each passing a message to a successor
 
-# &#x1F49C; ![alt-text](https://github.com/AdroitAnandAI/LSTM-Attention-based-Generative-Chat-bot/blob/master/images/1.png)
+# ![alt-text](https://github.com/AdroitAnandAI/LSTM-Attention-based-Generative-Chat-bot/blob/master/images/1.png)
 
 The chain-like structure of RNNs are related to sequences, be it sequence of words, audio or images. For this reason, they are used with incredible success for language modeling, translation, speech recognition etc.
 
 But RNNs struggle to connect information, when the gap grows, between relevant information and the place that it’s needed. Long Short Term Memory networks (“LSTMs”) are a special kind of RNN, capable of learning long-term dependencies.
 
-# &#x1F49C; ![alt-text](https://github.com/AdroitAnandAI/LSTM-Attention-based-Generative-Chat-bot/blob/master/images/2.png)
+# ![alt-text](https://github.com/AdroitAnandAI/LSTM-Attention-based-Generative-Chat-bot/blob/master/images/2.png)
 
 In sequence-to-sequence models (many-to-many RNN), when the size of input and output sequence is different, an encoder-decoder architecture is used. Decoder starts only after encoder finishes. Eg: Machine Translation, Text Summarization, Conversational Modeling, Image Captioning, and more.
 
-# &#x1F49C; ![alt-text](https://github.com/AdroitAnandAI/LSTM-Attention-based-Generative-Chat-bot/blob/master/images/3.png)
+# ![alt-text](https://github.com/AdroitAnandAI/LSTM-Attention-based-Generative-Chat-bot/blob/master/images/3.png)
 
 Encoder units helps to ‘understand’ the input sequence (“Are you free tomorrow?”) and the decoder decodes the ‘thought vector’ and generate the output sequence (Yes, what’s up?”). Thought vector can be thought of as neural representational form of input sequence, which only the decoder can look inside and produce output sequence.
 
@@ -85,6 +85,14 @@ raw movie scripts:
 
 ## &#x1F539; Model Architecture
 
-> The architecture of the model has been defined below
+> <h2>➢</h2> The architecture of the model has been defined below
 
-# &#x1F49C; ![alt-text](image.png)
+# ![alt-text](image.png)
+
+> <h2>➢</h2> Below is the model summary
+
+# ![alt-text](model.summary.png)
+
+> <h2>➢</h2> Run the model and improve the accuracy
+
+# ![alt-text](epoch.png)
